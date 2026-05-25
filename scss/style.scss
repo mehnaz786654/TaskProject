@@ -46,8 +46,9 @@
     .three-column-slider-button-prev {
         left:0;
     }
-    .marquee-wrapper{padding: 10px 0 0 0;
-     overflow:hidden;
+    .marquee-wrapper{
+        padding: 10px 0 0 0;
+        overflow: hidden;
     .marquee{
         background: #fff;
             padding: 10px 0;
@@ -250,7 +251,7 @@ background: #37312f;
 }
 .half-image-half-content-section {
     width: 100%;
-    padding: 80px 0;
+    padding: 80px 0 90px 0;
     background:url(../assets/images/graphics-texture-tire.png) no-repeat center / cover #fff;
 
     .half-image-half-content {
@@ -363,18 +364,14 @@ background: #37312f;
 }
 }
 .seal-img {
-    width: 420px;
-    height: 197px;
+    width: 151px;
+    height: 151px;
     position: absolute;
-    top: -122px;
-    left: 223px;
+    top: -80px;
+    left: 0;
     right: 0;
     z-index: 4;
     margin: 0 auto;
-    @media only screen and (max-width: 600px) {
-        position: absolute;
-          left: 27%;
-    }
 }
 .container-760 {
     position: relative;
